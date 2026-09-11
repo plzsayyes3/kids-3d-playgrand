@@ -2,6 +2,9 @@
 
 iPad / browser向けの子ども用3D工作アプリです。
 
+- App: https://plzsayyes3.github.io/kids-3d-playgrand/
+- Manual: https://plzsayyes3.github.io/kids-3d-playgrand/manual.html
+
 ## Features
 
 - 起動時に立方体を1個表示
@@ -25,6 +28,10 @@ iPad / browser向けの子ども用3D工作アプリです。
 
 重なった本体パーツごとに subtraction を実行し、切り抜き形は消えて結果形状だけが残ります。
 STLは画面上に残っている完成形から出力します。
+
+## Manual
+
+`manual.html` に、子ども向けの操作説明と保護者向けのSTL出力・トラブルシューティングをまとめています。
 
 ## Run
 
