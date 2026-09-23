@@ -1,39 +1,12 @@
-# Kids 3D Playgrand
+# Kids 3D Playgrand — legacy snapshot
 
-iPad / browser向けの子ども用3D工作アプリです。
+このリポジトリは **legacy / read-only** として保持します。
+現在の開発正本は For My Sons 側へ移行しました。
 
-- App: https://plzsayyes3.github.io/kids-3d-playgrand/
-- Manual: https://plzsayyes3.github.io/kids-3d-playgrand/manual.html
+- Canonical app: https://plzsayyes3.github.io/for_my_sons/kids-3d-playgrand/
+- Canonical source: https://github.com/plzsayyes3/for_my_sons/tree/main/kids-3d-playgrand
+- Save data: `plzsayyes3/For-My-Sons-save`
 
-## Features
+今後の機能追加・修正はまず `for_my_sons/kids-3d-playgrand/` で行い、十分に成熟した段階で必要に応じて公開用リポジトリへ反映します。
 
-- 起動時に立方体を1個表示
-- 箱・球・円柱・円錐を追加
-- 移動・回転・拡大縮小
-- コピー・削除
-- 「つける」と「きりぬく」のシンプルなモード切替
-- 赤い切り抜き形を重ねて、Boolean subtraction の結果だけを残す
-- 切り抜き後も既存パーツは個別編集可能
-- 地面までつながっているか判定
-- 条件を満たしたときだけSTL出力
-- iPad Safari向けタッチ操作・Safe Area・画面回転対応
-- カメラ操作とタップ選択が競合しにくいタッチ判定
-
-## Cutout
-
-1. `− きりぬく` を選ぶ
-2. 箱・球・円柱・円錐から赤い切り抜き形を置く
-3. 本体へ少し重ねる
-4. `✂ きりぬく！` を押す
-
-重なった本体パーツごとに subtraction を実行し、切り抜き形は消えて結果形状だけが残ります。
-STLは画面上に残っている完成形から出力します。
-
-## Manual
-
-`manual.html` に、子ども向けの操作説明と保護者向けのSTL出力・トラブルシューティングをまとめています。
-
-## Run
-
-`index.html` を静的ホスティングしてください。
-GitHub Pagesでは main branch / root を公開元に設定します。
+旧GitHub Pagesは過去版の確認用として残します。
